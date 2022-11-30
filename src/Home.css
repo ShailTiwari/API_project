@@ -363,7 +363,9 @@ body, input {
   .text-primary {
     color: #0091FF !important;
   }
-  
+  .text-primaryy {
+    color: #0091FF !important;
+  }
   /* Result tab design for image to text modal */
   .result-tab .nav-item {
     cursor: pointer;

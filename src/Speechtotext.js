@@ -9,7 +9,7 @@ import
   NavbarBrand, NavLink, NavItem, UncontrolledDropdown,
   DropdownToggle, DropdownMenu, DropdownItem
 } from 'react-bootstrap';
-function Speechtotext() 
+function Speechtotext(props) 
 
 
 {  
@@ -22,14 +22,12 @@ function Speechtotext()
 
   return (
      <div className="col-9 border-left" id="popup-content">
-     <div className="modal-header">
-         <h5 className="modal-title text-primary open-sans fw-bold" id="newModalLabel">
+     <div className="modal-header"> 
+     <h5 className="modal-title text-primaryy open-sans fw-bold" id="newModalLabel">
               Speech to Text Demonstration
-         </h5>
-         <button   onClick={handleClose} type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-     </div>
-
-
+         </h5> 
+         <button  onClick={() => props.setShow(false)} type="button" className="btn-close"  ></button>
+         </div>
        <div className="modal-body">
        </div>       
      </div>

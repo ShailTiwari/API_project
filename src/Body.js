@@ -13,12 +13,15 @@ function Main(props)
 {
   
   const list = [
-    {id: 1, border: 'border-secondary', title: 'Text extraction from image', content: 'Image to text'},
-    {id: 2, border: 'border-primary', title: 'Speech to text', content: 'Speech to text'},
-    {id: 3, border: 'border-warning', title: 'Text to speech', content: 'Text to speech'},
-    {id: 4, border: 'border-danger', title: 'Image recognition', content: 'Object recognition from image'},
-    {id: 5, border: 'border-danger', title: 'Comprehend', content: 'Comprehend'}
+    {id: 1, path: 'Textextract', border: 'border-secondary', title: 'Text extraction from image', content: 'Image to text'},
+    {id: 2, path: 'Speechtotext', border: 'border-primary', title: 'Speech to text', content: 'Speech to text'},
+    {id: 3, path: 'Texttospeech', border: 'border-warning', title: 'Text to speech', content: 'Text to speech'},
+    {id: 4, path: 'ImageRecognition', border: 'border-danger', title: 'Image recognition', content: 'Object recognition from image'},
+    {id: 5, path: 'Comprehend', border: 'border-danger', title: 'Comprehend', content: 'Comprehend'},
+    {id: 6, path: 'Chatbot', border: 'border-defult', title: 'Chatbot', content: 'DevOps and software development chatbot'}
   ];  
+
+
 
 
   

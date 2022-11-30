@@ -9,7 +9,7 @@ import
   NavbarBrand, NavLink, NavItem, UncontrolledDropdown,
   DropdownToggle, DropdownMenu, DropdownItem
 } from 'react-bootstrap';
-function Textextract() 
+function Textextract(props) 
 {  
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -21,10 +21,10 @@ function Textextract()
   return (
      <div className="col-9 border-left" id="popup-content">
      <div className="modal-header">
-         <h5 className="modal-title text-primary open-sans fw-bold" id="newModalLabel">
+     <h5 className="modal-title text-primaryy open-sans fw-bold" id="newModalLabel">
          Image to Text Demonstration 
-         </h5>
-         <button   onClick={handleClose} type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </h5>         
+         <button  onClick={() => props.setShow(false)} type="button" className="btn-close"  ></button>
      </div>
 
 
