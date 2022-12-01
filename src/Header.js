@@ -2,6 +2,7 @@ import React, { useState,useRef } from 'react';
 import './Home.css';
 import './all.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Body from './Body';
 class Header extends React.Component  {   
   constructor()
@@ -30,6 +31,11 @@ class Header extends React.Component  {
     window.kommunicate = m; m._globals = kommunicateSettings;
   })(document, window.kommunicate || {});
   }
+
+
+
+   
+
 
   render()
   {
@@ -82,6 +88,7 @@ class Header extends React.Component  {
       <Body refProp={this.textInput}/>
     </div>    
    </div>
+    <MessengerCustomerChat pageId="100087949407012" appId="472672598095481"/>
    </div>
    );
   }  
