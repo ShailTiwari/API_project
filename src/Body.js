@@ -13,12 +13,13 @@ function Main(props)
 {
   
   const list = [
-    {id: 1, path: 'Textextract', border: 'border-secondary', title: 'Text extraction from image', content: 'Image to text'},
-    {id: 2, path: 'Speechtotext', border: 'border-primary', title: 'Speech to text', content: 'Speech to text'},
+    // {id: 1, path: 'Textextract', border: 'border-secondary', title: 'Text extraction from image', content: 'Image to text'},
+    // {id: 2, path: 'Speechtotext', border: 'border-primary', title: 'Speech to text', content: 'Speech to text'},
+    // {id: 4, path: 'ImageRecognition', border: 'border-danger', title: 'Image recognition', content: 'Object recognition from image'},
+    // {id: 5, path: 'Comprehend', border: 'border-danger', title: 'Comprehend', content: 'Comprehend'},
     {id: 3, path: 'Texttospeech', border: 'border-warning', title: 'Text to speech', content: 'Text to speech'},
-    {id: 4, path: 'ImageRecognition', border: 'border-danger', title: 'Image recognition', content: 'Object recognition from image'},
-    {id: 5, path: 'Comprehend', border: 'border-danger', title: 'Comprehend', content: 'Comprehend'},
-    {id: 6, path: 'Chatbot', border: 'border-defult', title: 'Chatbot', content: 'DevOps and software development chatbot'}
+    {id: 6, path: 'Translate', border: 'border-success', title: 'Translate', content: ' customizable language translation'},
+    {id: 7, path: 'Chatbot', border: 'border-defult', title: 'Chatbot', content: 'DevOps and software development chatbot'}
   ];  
 
 

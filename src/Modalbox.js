@@ -9,6 +9,7 @@ import Textextract from './Textextract';
 import ImageRecognition from './ImageRecognition';
 import Comprehend from './Comprehend';
 import Comprehendmedical from './Comprehendmedical';
+import Translate from './Translate';
 import Chatbot from './Chatbot';
 import Navbar from './Navbar';
 function Modalbox(props) 
@@ -62,8 +63,12 @@ function Modalbox(props)
         </ul>
         ))}  
     </div>  
-       <Modal show={show} onHide={handleClose} backdrop="static">    
-        <Modal.Body>
+       <Modal 
+        dialogClassName="modal-90w" 
+        aria-labelledby="example-custom-modal-styling-title"  show={show} onHide={handleClose} backdrop="static" > 
+       <div  className="modal-dialog-centered">
+       <div  className="modal-content  open-sans">
+       <Modal.Body>
           <BrowserRouter>
           <div className="row open-sans"> 
           <Navbar path={path}/>  
@@ -74,11 +79,16 @@ function Modalbox(props)
             <Route path='/ImageRecognition' element={<ImageRecognition show={show} setShow={setShow}/>}/>
             <Route path='/Comprehend' element={<Comprehend show={show} setShow={setShow}/>}/>
             <Route path='/Comprehendmedical' element={<Comprehendmedical show={show} setShow={setShow}/>}/>
+            <Route path='/Translate' element={<Translate show={show} setShow={setShow}/>} />
             <Route path='/Chatbot' element={<Chatbot show={show} setShow={setShow}/>} />
           </Routes>
           </div>
           </BrowserRouter>
           </Modal.Body>
+        </div> 
+        </div> 
+
+        
       </Modal>
       </div>  
   );

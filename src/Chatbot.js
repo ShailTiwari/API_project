@@ -29,11 +29,16 @@ function Chatbot(props)
      </div>
 
 
-       <div className="modal-body">
+       <div className="modal-body  ">
           <ListGroup>
-            <ListGroup.Item  variant="info" >Use Lex Chatbot and get activity in Slack useing chatbot DevOps    
+            <ListGroup.Item  variant="" >Use Lex Chatbot and get activity in slack chatbot DevOps    
+              <a href='https://app.slack.com/client/T04D242HA3T/D04DGB16V7D' target="_blank">
+                <button className="d-inline-block float-end button btn-listen text-uppercase" >Open Hotel Booking Bot</button>{' '} 
+              </a> 
+            </ListGroup.Item>
+            <ListGroup.Item  variant="" >Open chatbot DevOps Slack Channel after use Lex chatbot  
               <a href='https://app.slack.com/client/T04D242HA3T/C04CM2QC6AZ' target="_blank">
-                <Button variant="success">Open Slack</Button>{' '} 
+                <button className="d-inline-block float-end button btn-listen text-uppercase">Open DevOps Slack Channel</button>{' '} 
               </a> 
             </ListGroup.Item>
           </ListGroup>

@@ -56,7 +56,7 @@ function Texttospeech(props)
      <div className="col-9 border-left" id="popup-content">
      <div className="modal-header">
          <h5 className="modal-title text-primaryy open-sans fw-bold" id="newModalLabel">
-             Text to Speech Demonstrationn
+             Text to Speech Demonstration
          </h5> 
          <button  onClick={() => props.setShow(false)} type="button" className="btn-close"  ></button>
      </div>

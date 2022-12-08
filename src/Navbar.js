@@ -21,10 +21,8 @@ function Navbar(props)
   return (
     <div className="col-2"> 
         <ul className="navbar-nav fw-bold ps-32 py-4" id="modal-navbar">
-            <li className="nav-item py-2">
-                <NavLink className="nav-link" to="/Texttospeech">Text to speech</NavLink>
-            </li>
-            <li className="nav-item py-2">                
+           
+            {/* <li className="nav-item py-2">                
               <NavLink className="nav-link " to="/Speechtotext">Speech to text</NavLink>
             </li>
             <li className="nav-item py-2">                
@@ -38,6 +36,12 @@ function Navbar(props)
             </li>
             <li className="nav-item py-2">                
               <NavLink className="nav-link" to="/Comprehendmedical">Comprehend Medical</NavLink>
+            </li>  */}
+            <li className="nav-item py-2">
+                <NavLink className="nav-link" to="/Texttospeech">Text to speech</NavLink>
+            </li>
+            <li className="nav-item py-2">                
+              <NavLink className="nav-link" to="/Translate">Translate</NavLink>
             </li>
             <li className="nav-item py-2">                
               <NavLink className="nav-link" to="/Chatbot">AWS Chatbot</NavLink>
